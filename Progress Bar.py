@@ -3,4 +3,6 @@ def progressBar(finishedTasks, totalTasks):
     Bar = '|' + '█' * int(percentageTasks/2) + '-' * int((100 - percentageTasks)/2) + '|'
     return f'Percentage: {percentageTasks}%\n{Bar}'
 
-print(progressBar(70, 100))
+test_value1 = 67
+test_value2 = 420
+print(progressBar(test_value1, test_value2))
