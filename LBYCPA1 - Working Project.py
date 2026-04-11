@@ -230,7 +230,7 @@ if __name__ == "__main__":
 
             case "4":
                 confirm = input("Confirm by Y/N: ")
-                if confirm == 'Y':
+                if confirm.upper() == 'Y':
                     data = {
                         "Tasks": {},
                         "Total Tasks": 0,
