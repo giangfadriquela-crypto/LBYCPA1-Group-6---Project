@@ -116,7 +116,7 @@ def progressBar(finishedTasks, totalTasks):
     except ZeroDivisionError:
         percentageTasks = 1
         Bar = '|' + '█' * int(percentageTasks/2) + '-' * int((100 - percentageTasks)/2) + '|'
-        return f'You have no active tasks!\nProgress Bar:\n{Bar}'
+        return f'\nYou have no active tasks!\n\nProgress Bar:\n{Bar}'
 
 # ------------ User Action ------------
 
