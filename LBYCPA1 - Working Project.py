@@ -112,7 +112,7 @@ def progressBar(finishedTasks, totalTasks):
     try:
         percentageTasks = (finishedTasks / totalTasks) * 100 
         Bar = '|' + '█' * int(percentageTasks/2) + '-' * int((100 - percentageTasks)/2) + '|'
-        return f'Percentage: {percentageTasks}%\nProgress Bar:\n{Bar}'
+        return f'\nPercentage: {percentageTasks}%\nProgress Bar:\n{Bar}'
     except ZeroDivisionError:
         percentageTasks = 1
         Bar = '|' + '█' * int(percentageTasks/2) + '-' * int((100 - percentageTasks)/2) + '|'
